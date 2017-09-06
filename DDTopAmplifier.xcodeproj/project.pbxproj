@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EECC9F5E93E7EEBA01E08967 /* libPods-DDTopAmplifier.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC759BBCEDCB71C7CF878E7A /* libPods-DDTopAmplifier.a */; };
+		F545C8CB1F5E59BB00E95717 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F545C8CA1F5E59BB00E95717 /* UIColor+Extension.m */; };
+		F567FA351F5D3D7600E54CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F567FA341F5D3D7600E54CEC /* main.m */; };
+		F567FA381F5D3D7600E54CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F567FA371F5D3D7600E54CEC /* AppDelegate.m */; };
+		F567FA3B1F5D3D7600E54CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F567FA3A1F5D3D7600E54CEC /* ViewController.m */; };
+		F567FA3E1F5D3D7600E54CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F567FA3C1F5D3D7600E54CEC /* Main.storyboard */; };
+		F567FA401F5D3D7600E54CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F567FA3F1F5D3D7600E54CEC /* Assets.xcassets */; };
+		F567FA431F5D3D7600E54CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F567FA411F5D3D7600E54CEC /* LaunchScreen.storyboard */; };
+		F567FA4C1F5D3EA700E54CEC /* DDHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F567FA4B1F5D3EA700E54CEC /* DDHeaderViewController.m */; };
+		F567FA4F1F5D41BF00E54CEC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F567FA4E1F5D41BF00E54CEC /* UIView+Extension.m */; };
+		F58043A61F5E405A003601E3 /* UINavigationController+DDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F58043A51F5E405A003601E3 /* UINavigationController+DDFullscreenPopGesture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B9BC7D5C8881F73A06A4A6E /* Pods-DDTopAmplifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDTopAmplifier.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDTopAmplifier/Pods-DDTopAmplifier.release.xcconfig"; sourceTree = "<group>"; };
+		DC759BBCEDCB71C7CF878E7A /* libPods-DDTopAmplifier.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDTopAmplifier.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FE9BA55048FD86C615E2A0 /* Pods-DDTopAmplifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDTopAmplifier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDTopAmplifier/Pods-DDTopAmplifier.debug.xcconfig"; sourceTree = "<group>"; };
+		F545C8C91F5E59BB00E95717 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		F545C8CA1F5E59BB00E95717 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		F567FA301F5D3D7600E54CEC /* DDTopAmplifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDTopAmplifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F567FA341F5D3D7600E54CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F567FA361F5D3D7600E54CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F567FA371F5D3D7600E54CEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F567FA391F5D3D7600E54CEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F567FA3A1F5D3D7600E54CEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F567FA3D1F5D3D7600E54CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F567FA3F1F5D3D7600E54CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F567FA421F5D3D7600E54CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F567FA441F5D3D7600E54CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F567FA4A1F5D3EA700E54CEC /* DDHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHeaderViewController.h; sourceTree = "<group>"; };
+		F567FA4B1F5D3EA700E54CEC /* DDHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHeaderViewController.m; sourceTree = "<group>"; };
+		F567FA4D1F5D41BF00E54CEC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F567FA4E1F5D41BF00E54CEC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F58043A41F5E405A003601E3 /* UINavigationController+DDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		F58043A51F5E405A003601E3 /* UINavigationController+DDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F567FA2D1F5D3D7600E54CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECC9F5E93E7EEBA01E08967 /* libPods-DDTopAmplifier.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45B5AE4B0586C161C83BD0E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE9BA55048FD86C615E2A0 /* Pods-DDTopAmplifier.debug.xcconfig */,
+				8B9BC7D5C8881F73A06A4A6E /* Pods-DDTopAmplifier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EF40233633A72286BAF60A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC759BBCEDCB71C7CF878E7A /* libPods-DDTopAmplifier.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F567FA271F5D3D7600E54CEC = {
+			isa = PBXGroup;
+			children = (
+				F567FA321F5D3D7600E54CEC /* DDTopAmplifier */,
+				F567FA311F5D3D7600E54CEC /* Products */,
+				45B5AE4B0586C161C83BD0E8 /* Pods */,
+				5EF40233633A72286BAF60A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F567FA311F5D3D7600E54CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F567FA301F5D3D7600E54CEC /* DDTopAmplifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F567FA321F5D3D7600E54CEC /* DDTopAmplifier */ = {
+			isa = PBXGroup;
+			children = (
+				F58043A41F5E405A003601E3 /* UINavigationController+DDFullscreenPopGesture.h */,
+				F58043A51F5E405A003601E3 /* UINavigationController+DDFullscreenPopGesture.m */,
+				F567FA4D1F5D41BF00E54CEC /* UIView+Extension.h */,
+				F567FA4E1F5D41BF00E54CEC /* UIView+Extension.m */,
+				F567FA361F5D3D7600E54CEC /* AppDelegate.h */,
+				F567FA371F5D3D7600E54CEC /* AppDelegate.m */,
+				F567FA391F5D3D7600E54CEC /* ViewController.h */,
+				F567FA3A1F5D3D7600E54CEC /* ViewController.m */,
+				F567FA4A1F5D3EA700E54CEC /* DDHeaderViewController.h */,
+				F567FA4B1F5D3EA700E54CEC /* DDHeaderViewController.m */,
+				F567FA3C1F5D3D7600E54CEC /* Main.storyboard */,
+				F567FA3F1F5D3D7600E54CEC /* Assets.xcassets */,
+				F567FA411F5D3D7600E54CEC /* LaunchScreen.storyboard */,
+				F567FA441F5D3D7600E54CEC /* Info.plist */,
+				F567FA331F5D3D7600E54CEC /* Supporting Files */,
+				F545C8C91F5E59BB00E95717 /* UIColor+Extension.h */,
+				F545C8CA1F5E59BB00E95717 /* UIColor+Extension.m */,
+			);
+			path = DDTopAmplifier;
+			sourceTree = "<group>";
+		};
+		F567FA331F5D3D7600E54CEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F567FA341F5D3D7600E54CEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F567FA2F1F5D3D7600E54CEC /* DDTopAmplifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F567FA471F5D3D7600E54CEC /* Build configuration list for PBXNativeTarget "DDTopAmplifier" */;
+			buildPhases = (
+				BCA77EBFF1FF18B7F606756A /* [CP] Check Pods Manifest.lock */,
+				F567FA2C1F5D3D7600E54CEC /* Sources */,
+				F567FA2D1F5D3D7600E54CEC /* Frameworks */,
+				F567FA2E1F5D3D7600E54CEC /* Resources */,
+				141E3C70F269BF0253066D9A /* [CP] Embed Pods Frameworks */,
+				43B79E1CDC72BED9EB06906F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDTopAmplifier;
+			productName = DDTopAmplifier;
+			productReference = F567FA301F5D3D7600E54CEC /* DDTopAmplifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F567FA281F5D3D7600E54CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Think;
+				TargetAttributes = {
+					F567FA2F1F5D3D7600E54CEC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q9NEX3YUQC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F567FA2B1F5D3D7600E54CEC /* Build configuration list for PBXProject "DDTopAmplifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F567FA271F5D3D7600E54CEC;
+			productRefGroup = F567FA311F5D3D7600E54CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F567FA2F1F5D3D7600E54CEC /* DDTopAmplifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F567FA2E1F5D3D7600E54CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F567FA431F5D3D7600E54CEC /* LaunchScreen.storyboard in Resources */,
+				F567FA401F5D3D7600E54CEC /* Assets.xcassets in Resources */,
+				F567FA3E1F5D3D7600E54CEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141E3C70F269BF0253066D9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDTopAmplifier/Pods-DDTopAmplifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43B79E1CDC72BED9EB06906F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDTopAmplifier/Pods-DDTopAmplifier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCA77EBFF1FF18B7F606756A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F567FA2C1F5D3D7600E54CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F567FA4F1F5D41BF00E54CEC /* UIView+Extension.m in Sources */,
+				F567FA3B1F5D3D7600E54CEC /* ViewController.m in Sources */,
+				F58043A61F5E405A003601E3 /* UINavigationController+DDFullscreenPopGesture.m in Sources */,
+				F545C8CB1F5E59BB00E95717 /* UIColor+Extension.m in Sources */,
+				F567FA381F5D3D7600E54CEC /* AppDelegate.m in Sources */,
+				F567FA351F5D3D7600E54CEC /* main.m in Sources */,
+				F567FA4C1F5D3EA700E54CEC /* DDHeaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F567FA3C1F5D3D7600E54CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F567FA3D1F5D3D7600E54CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F567FA411F5D3D7600E54CEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F567FA421F5D3D7600E54CEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F567FA451F5D3D7600E54CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F567FA461F5D3D7600E54CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F567FA481F5D3D7600E54CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FE9BA55048FD86C615E2A0 /* Pods-DDTopAmplifier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9NEX3YUQC;
+				INFOPLIST_FILE = DDTopAmplifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Think.DDTopAmplifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F567FA491F5D3D7600E54CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9BC7D5C8881F73A06A4A6E /* Pods-DDTopAmplifier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9NEX3YUQC;
+				INFOPLIST_FILE = DDTopAmplifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Think.DDTopAmplifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F567FA2B1F5D3D7600E54CEC /* Build configuration list for PBXProject "DDTopAmplifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F567FA451F5D3D7600E54CEC /* Debug */,
+				F567FA461F5D3D7600E54CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F567FA471F5D3D7600E54CEC /* Build configuration list for PBXNativeTarget "DDTopAmplifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F567FA481F5D3D7600E54CEC /* Debug */,
+				F567FA491F5D3D7600E54CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F567FA281F5D3D7600E54CEC /* Project object */;
+}
